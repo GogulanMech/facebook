@@ -52,3 +52,5 @@ class Keyword_Processor:
                     action == "Select by index":
                 if locator == "xpath" or locator == 'XPATH':
                     Select(self.driver.find_element(By.XPATH, locator_value)).select_by_index(action_value)
+
+
